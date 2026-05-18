@@ -1,0 +1,5 @@
+packages:
+  - "packages/core"
+  - "packages/cli"
+  - "packages/daemon"
+  - "apps/bin"

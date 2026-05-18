@@ -1,0 +1,20 @@
+{
+  "name": "agent-runtime",
+  "version": "0.0.0",
+  "private": true,
+  "description": "From-scratch agent runtime — 30 architectural primitives, mixed-stack monorepo",
+  "packageManager": "pnpm@10.26.2",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.0"
+  }
+}
