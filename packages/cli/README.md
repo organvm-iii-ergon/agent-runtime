@@ -2,4 +2,4 @@
 
 TypeScript CLI: REPL, TUI renderer (Ink), slash commands, vim mode, keybindings.
 
-Phase 0 status: scaffolded, no implementation. See `docs/PLAN.md`.
+Current status: slash-input parsing and tree-style suggestion composition are implemented, including runtime discovery of OpenCode markdown commands when the caller opts into workspace loading. Full TUI rendering is still pending. See `docs/PLAN.md`.
