@@ -1,0 +1,11 @@
+{
+  "$comment": "Ranked tier of estate repositories with discovered latent value. Build-out follows ranking. Entries are appended by the discovery process; see each repo's DISCOVERY.md for the full thesis.",
+  "ranked": [
+    {
+      "repo": "organvm/agent-runtime",
+      "discovered": "2026-06-22",
+      "value": "Reusable, dependency-free, typed slash-command surface: an OpenCode-compatible markdown command loader (frontmatter + nested-dir-to-deep-path) and a hierarchical registry/autocomplete engine with builtin>global>project merge precedence. Builds green, 14 tests passing.",
+      "firstTask": "Add resolve(input): ResolvedCommand | null to @agent-runtime/core (and `agent slash run`) to turn matched commands into executable payloads (commandId/template/agent/model/subtask/source)."
+    }
+  ]
+}
